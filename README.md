@@ -7,7 +7,7 @@
 
 Aural Sentiment Engine is an end-to-end system that analyzes the emotional sentiment expressed in short audio recordings (speech, podcasts, or voice notes). It converts raw audio into robust acoustic representations and uses a deep learning model to classify sentiment (e.g., positive / neutral / negative) and emotional states. The project demonstrates applied audio feature engineering, model training, evaluation, and deployment-ready inference.
 
-Why this project matters to recruiters:
+Why this project matters :
 - Solves a real-world multimodal / audio-only classification problem relevant to voice assistants, customer support triage, and social listening.
 - Shows practical skills: signal processing, ML model design, training/validation best practices, and production-ready inference.
 - Easy to reproduce and extend.
@@ -36,15 +36,13 @@ Key features
 
 Demo
 - Live demo: (Add link if you host a demo)
-- Example audio samples and expected outputs are in `examples/` (add your sample files / predictions here).
-- Short demo GIF / video: include under `assets/` and link here.
+- Example audio samples and expected outputs are in `examples/`.
 
 Tech stack
 - Core: Python, NumPy, pandas
-- Audio: librosa, torchaudio (or replace with your framework)
+- Audio: librosa, torchaudio
 - ML: PyTorch (or TensorFlow) — adapt as implemented
 - Utilities: scikit-learn, tqdm, matplotlib / seaborn
-- Dev & deployment: Docker, FastAPI / Flask for serving (optional)
 
 Model & approach
 - Preprocessing: Audio normalization, trimming, resampling (e.g., 16 kHz), silence removal, augmentations (time-stretching, noise).
@@ -148,40 +146,7 @@ How to reproduce
    python src/evaluate.py --model experiments/<run>/checkpoint_best.pth --data data/processed/test.csv
    ```
 
-Deployment
-- Serve a REST API (example with FastAPI):
-  - `src/app.py` exposes `/predict` which accepts multipart audio uploads and returns sentiment predictions.
-  - Example Docker workflow:
-    ```bash
-    docker build -t aural-sentiment-engine:latest .
-    docker run -p 8000:8000 aural-sentiment-engine:latest
-    ```
-- Include model quantization and batching for production throughput improvements.
-
-Tips to highlight for recruiters
-- Explain the problem framing: audio-only sentiment detection and why acoustic features matter (tone, prosody).
-- Emphasize data quality steps you performed: silence removal, class-balancing, augmentation strategy.
-- Show model selection process and trade-offs (latency vs. accuracy).
-- Demonstrate reproducibility: configs, seed handling, deterministic evaluation.
-- Mention integrations: how this could be plugged into a call-center pipeline or a voice assistant.
-
-Contributing
-Contributions are welcome. If you'd like to contribute:
-1. Fork the repository
-2. Create a feature branch
-3. Open a pull request with clear description and tests (if applicable)
-
-Please add issues for bugs or feature requests and tag them with appropriate labels.
-
-License & contact
-- License: MIT (update if different)
-- Author: nivethitha-code
-- Contact: (Add your email or LinkedIn)
-
 Acknowledgements
 - Libraries: librosa, torchaudio, PyTorch/TensorFlow, scikit-learn
 - Datasets and pretrained model authors (cite appropriately)
 
-Final notes
-- Replace placeholders (dataset info, exact model architecture, quantitative results, demo links) with real values to maximize recruiter impact.
-- Consider adding: 1–2 screenshots (training curves, confusion matrix), short demo video, and a one-page PDF summary in the repository for recruiters.
