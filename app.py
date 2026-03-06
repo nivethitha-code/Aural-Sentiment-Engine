@@ -10,7 +10,6 @@ import time
 import requests
 from streamlit_lottie import st_lottie
 from tensorflow.keras.models import load_model
-from setup import download_assets
 
 warnings.filterwarnings("ignore")
 
@@ -36,8 +35,7 @@ if 'X' not in st.session_state:
 if 'uploader_key' not in st.session_state:
     st.session_state.uploader_key = 0
 
-# Auto-download model files
-download_assets()
+# Models will be loaded directly from the local 'models/' directory
 
 def load_lottie_url(url: str):
     try:
