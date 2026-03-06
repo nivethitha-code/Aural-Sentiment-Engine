@@ -1,0 +1,15 @@
+streamlit
+tensorflow
+librosa
+numpy
+pandas
+joblib
+matplotlib
+shap
+scikit-learn
+soundfile
+gdown
+seaborn
+tqdm
+streamlit-lottie
+requests
