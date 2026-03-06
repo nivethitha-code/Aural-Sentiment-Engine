@@ -47,8 +47,8 @@ def load_lottie_url(url: str):
     except: return None
 
 # Animation URLs
-lottie_scanning = load_lottie_url("https://assets5.lottiefiles.com/packages/lf20_ndj96q.json") # Scanner
-lottie_wave = load_lottie_url("https://assets10.lottiefiles.com/packages/lf20_mkmfioqr.json") # Audio wave
+lottie_scanning = load_lottie_url("https://lottie.host/9fd4b838-ec82-4fcd-b0e2-86b370e6e5ba/scanning.json")
+lottie_wave = load_lottie_url("https://lottie.host/e0cba5f6-1a0a-4a3e-bfef-01cabb0e5b29/wave.json")
 
 # ============================================================
 #                        PREMIUM STYLING
@@ -61,7 +61,6 @@ st.markdown("""
         font-family: 'Inter', sans-serif;
         background: radial-gradient(circle at top right, #1a1a2e, #16213e, #0f3460);
         color: #e9ecef;
-        overflow: hidden; /* Prevent global scrollbars */
     }
 
     [data-testid="stAppViewBlockContainer"] {
