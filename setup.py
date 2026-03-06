@@ -16,7 +16,7 @@ FILES = {
     "models/scaler.joblib":                   "1ixjVWu6Lv1Zuy6EQYY5APpNGRyfCBmJm",
     "models/encoder.joblib":                  "1W-qtY6h1MxX3N63OYtsb8yYZraP8EN91",
     "visuals/confusion_matrix.png":        "13NLJT4ZQ-yVsIHL3i_SyDDJCEBY6lMg2",
-    "visuals/roc_curve.png":               "13NLJT4ZQ-yVsIHL3i_SyDDJCEBY6lMg2",
+    "visuals/roc_curve.png":               "1v4tbY5KMJ2tFoqggfA-HjZo8Cv0j1dS6",
 }
 
 def download_assets():
