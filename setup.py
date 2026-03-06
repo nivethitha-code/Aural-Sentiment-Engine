@@ -12,11 +12,11 @@ import gdown
 # ============================================================
 
 FILES = {
-    "models/AuralSentimentEngine_best.keras": "https://drive.google.com/file/d/1t_P4NuHhQGN8g0sOmc_3GJlgPGOBij8y/view?usp=sharing",
-    "models/scaler.joblib":                   "https://drive.google.com/file/d/1ixjVWu6Lv1Zuy6EQYY5APpNGRyfCBmJm/view?usp=sharing",
-    "models/encoder.joblib":                  "https://drive.google.com/file/d/1W-qtY6h1MxX3N63OYtsb8yYZraP8EN91/view?usp=sharing",
-    "visuals/confusion_matrix.png":        "https://drive.google.com/file/d/13NLJT4ZQ-yVsIHL3i_SyDDJCEBY6lMg2/view?usp=sharing",
-    "visuals/roc_curve.png":               "https://drive.google.com/file/d/13NLJT4ZQ-yVsIHL3i_SyDDJCEBY6lMg2/view?usp=sharing",
+    "models/AuralSentimentEngine_best.keras": "1t_P4NuHhQGN8g0sOmc_3GJlgPGOBij8y",
+    "models/scaler.joblib":                   "1ixjVWu6Lv1Zuy6EQYY5APpNGRyfCBmJm",
+    "models/encoder.joblib":                  "1W-qtY6h1MxX3N63OYtsb8yYZraP8EN91",
+    "visuals/confusion_matrix.png":        "13NLJT4ZQ-yVsIHL3i_SyDDJCEBY6lMg2",
+    "visuals/roc_curve.png":               "13NLJT4ZQ-yVsIHL3i_SyDDJCEBY6lMg2",
 }
 
 def download_assets():
