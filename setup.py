@@ -12,11 +12,11 @@ import gdown
 # ============================================================
 
 FILES = {
-    "models/AuralSentimentEngine_best.keras": "PASTE_KERAS_FILE_ID_HERE",
-    "models/scaler.joblib":                   "PASTE_SCALER_FILE_ID_HERE",
-    "models/encoder.joblib":                  "PASTE_ENCODER_FILE_ID_HERE",
-    "visuals/confusion_matrix.png":        "PASTE_CONFUSION_MATRIX_FILE_ID_HERE",
-    "visuals/roc_curve.png":               "PASTE_ROC_CURVE_FILE_ID_HERE",
+    "models/AuralSentimentEngine_best.keras": "https://drive.google.com/file/d/1t_P4NuHhQGN8g0sOmc_3GJlgPGOBij8y/view?usp=sharing",
+    "models/scaler.joblib":                   "https://drive.google.com/file/d/1ixjVWu6Lv1Zuy6EQYY5APpNGRyfCBmJm/view?usp=sharing",
+    "models/encoder.joblib":                  "https://drive.google.com/file/d/1W-qtY6h1MxX3N63OYtsb8yYZraP8EN91/view?usp=sharing",
+    "visuals/confusion_matrix.png":        "https://drive.google.com/file/d/13NLJT4ZQ-yVsIHL3i_SyDDJCEBY6lMg2/view?usp=sharing",
+    "visuals/roc_curve.png":               "https://drive.google.com/file/d/13NLJT4ZQ-yVsIHL3i_SyDDJCEBY6lMg2/view?usp=sharing",
 }
 
 def download_assets():
