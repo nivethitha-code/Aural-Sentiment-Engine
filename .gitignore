@@ -155,5 +155,4 @@ cython_debug/
 # Project Specific
 RAVDESS DATASET/
 models/
-.streamlit/
 visuals/
