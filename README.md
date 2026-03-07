@@ -9,10 +9,8 @@
 🌐 **Deployed App:** [aural-sentiment-engine.streamlit.app](https://aural-sentiment-engine.streamlit.app)
 
 | Home — Data Ingestion | Neural Inference Report | Explainability Lab |
-|---|---|---|
-| ![Home](https://github.com/user-attachments/assets/placeholder-home) | ![Result](https://github.com/user-attachments/assets/placeholder-result) | ![SHAP](https://github.com/user-attachments/assets/placeholder-shap) |
-
-> 💡 **Replace the placeholder image links above** with actual screenshots from your deployed app. Go to your app → take screenshots → upload to your GitHub repo's Issues tab → copy the image URLs.
+|-----------------|-----------------|-----------------|
+| <img width="1916" height="859" alt="image" src="https://github.com/user-attachments/assets/2b87b7bc-0baf-402e-833b-b479d01f8b49" /> | <img width="1917" height="873" alt="image" src="https://github.com/user-attachments/assets/ba6c5e87-c556-4c32-8f4b-b08b238edb42" />    <img width="1910" height="861" alt="image" src="https://github.com/user-attachments/assets/e141a11c-f44a-4c24-ac34-f76ee28baaae" /> | <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/04175002-3bcb-4a0c-a9b4-0a8d64ac04fb" />   <img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/0b74ed00-c4ac-4e2b-844b-af5f6c2a8c0f" /> |
 
 ---
 
