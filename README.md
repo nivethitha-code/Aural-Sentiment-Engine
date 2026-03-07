@@ -1,6 +1,6 @@
 # 🎙️ Aural Sentiment Engine — Speech Emotion Recognition
 
-> A deep learning-powered Speech Emotion Recognition system that decodes human emotions from voice recordings — with real-time predictions, SHAP explainability, and a premium dark UI.
+> A machine learning-powered Speech Emotion Recognition system that decodes human emotions from voice recordings — with real-time predictions, SHAP explainability, and a premium dark UI.
 
 ---
 
